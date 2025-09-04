@@ -3,5 +3,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('tasks.urls')),   # ชี้ไปที่แอป tasks
+    path('', include('tasks.urls'))   # ชี้ไปที่แอป tasks
 ]
